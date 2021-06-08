@@ -11506,12 +11506,12 @@ body {
 }
 
 .container nav {
-  padding: 0 142px;
+  padding: 0 100px;
   max-height: 72px;
 }
 
 .container .content .row {
-  padding: 0 142px;
+  padding: 0 100px;
 }
 
 .container .content .row .title {
@@ -11522,8 +11522,8 @@ body {
   font-family: 'Baloo Tamma 2';
 }
 
-.container .tab {
-  padding: 0 142px;
+.container .tab .nav {
+  padding: 0 100px;
 }
 
 .container .tab .nav .active {
@@ -11531,26 +11531,42 @@ body {
   border-bottom: 2px solid #ffc107;
 }
 
-.container .main {
-  padding: 0 142px;
+.container .tab .main {
+  padding: 0 100px;
 }
 
-.container .main .title {
+.container .tab .main .title {
   letter-spacing: 1.92px;
 }
 
-.container .main .text {
+.container .tab .main .text {
   line-height: 32px;
   color: #494846;
   text-align: justify;
 }
 
-.container .main .form-select {
+.container .tab .main .form-select {
   background: #F7F7F7;
 }
 
-.container .main .form-control {
+.container .tab .main .form-control {
   background: #F7F7F7;
+}
+
+.container .tab .main .contact {
+  font-size: 12px;
+}
+
+.container .tab .main h5 .baloo, .container .tab .main .h5 .baloo {
+  font-family: 'Baloo Tamma 2';
+}
+
+.container .tab .main .sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  left: 0;
+  bottom: 200px;
 }
 
 .container footer {

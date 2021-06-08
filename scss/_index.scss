@@ -5,13 +5,13 @@ body {
   max-width: 1400px;
   margin: auto;
   nav {
-    padding: 0 142px;
+    padding: 0 100px;
     max-height: 72px;
 
   }
   .content {
     .row {
-      padding: 0 142px;
+      padding: 0 100px;
       .title {
         letter-spacing: 3px;
       }
@@ -21,27 +21,41 @@ body {
     }
   }
   .tab {
-    padding: 0 142px;
+    .nav{
+      padding: 0 100px;
+    }
     .nav .active {
       font-weight: bold;
       border-bottom: 2px solid #ffc107;
     }
-  }
-  .main {
-    padding: 0 142px;
-    .title {
-      letter-spacing: 1.92px;
-    }
-    .text {
-      line-height: 32px;
-      color:$body-color;
-      text-align: justify;
-    }
-    .form-select {
-      background: #F7F7F7;
-    }
-    .form-control {
-      background: #F7F7F7;
+    .main {
+      padding: 0 100px;
+      .title {
+        letter-spacing: 1.92px;
+      }
+      .text {
+        line-height: 32px;
+        color:$body-color;
+        text-align: justify;
+      }
+      .form-select {
+        background: #F7F7F7;
+      }
+      .form-control {
+        background: #F7F7F7;
+      }
+      .contact {
+        font-size: 12px;
+      }
+      h5 .baloo {
+        font-family: 'Baloo Tamma 2';
+      }
+      .sidebar {
+        position:sticky;
+        top: 70px;
+        left:0;
+        bottom: 200px;
+      }
     }
   }
   footer {
