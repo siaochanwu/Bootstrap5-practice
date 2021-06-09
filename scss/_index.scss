@@ -50,6 +50,11 @@ body {
       h5 .baloo {
         font-family: 'Baloo Tamma 2';
       }
+      ul li {
+        p .card {
+          padding-left: 50px;
+        }
+      }
       .sidebar {
         position:sticky;
         top: 70px;

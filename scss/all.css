@@ -11561,6 +11561,10 @@ body {
   font-family: 'Baloo Tamma 2';
 }
 
+.container .tab .main ul li p .card {
+  padding-left: 50px;
+}
+
 .container .tab .main .sidebar {
   position: -webkit-sticky;
   position: sticky;
