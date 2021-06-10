@@ -11506,12 +11506,12 @@ body {
 }
 
 .container nav {
-  padding: 0 100px;
+  padding: 0 10%;
   max-height: 72px;
 }
 
 .container .content .row {
-  padding: 0 100px;
+  padding: 0 10%;
 }
 
 .container .content .row .title {
@@ -11523,7 +11523,7 @@ body {
 }
 
 .container .tab .nav {
-  padding: 0 100px;
+  padding: 0;
 }
 
 .container .tab .nav .active {
@@ -11532,37 +11532,34 @@ body {
 }
 
 .container .tab .main {
-  padding: 0 100px;
+  padding: 0 10%;
 }
 
-.container .tab .main .title {
+.container .tab .main #intro .title {
   letter-spacing: 1.92px;
 }
 
-.container .tab .main .text {
+.container .tab .main #intro .text {
   line-height: 32px;
   color: #494846;
   text-align: justify;
 }
 
-.container .tab .main .form-select {
+@media screen and (max-width: 992px) {
+  .container .tab .main #current .row p {
+    display: none;
+  }
+  .container .tab .main #current .row a {
+    margin-top: 10px;
+  }
+}
+
+.container .tab .main .form .form-select {
   background: #F7F7F7;
 }
 
-.container .tab .main .form-control {
+.container .tab .main .form .form-control {
   background: #F7F7F7;
-}
-
-.container .tab .main .contact {
-  font-size: 12px;
-}
-
-.container .tab .main h5 .baloo, .container .tab .main .h5 .baloo {
-  font-family: 'Baloo Tamma 2';
-}
-
-.container .tab .main ul li p .card {
-  padding-left: 50px;
 }
 
 .container .tab .main .sidebar {
@@ -11571,6 +11568,22 @@ body {
   top: 70px;
   left: 0;
   bottom: 200px;
+}
+
+.container .tab .main .sidebar .contact {
+  font-size: 12px;
+}
+
+.container .tab .main .sidebar h5 .baloo, .container .tab .main .sidebar .h5 .baloo {
+  font-family: 'Baloo Tamma 2';
+}
+
+.container .tab .stickybtn {
+  display: none;
+}
+
+.container .tab .stickybtn {
+  display: block;
 }
 
 .container footer {

@@ -5,13 +5,12 @@ body {
   max-width: 1400px;
   margin: auto;
   nav {
-    padding: 0 100px;
+    padding: 0 10%;
     max-height: 72px;
-
   }
   .content {
     .row {
-      padding: 0 100px;
+      padding: 0 10%;
       .title {
         letter-spacing: 3px;
       }
@@ -20,39 +19,45 @@ body {
       }
     }
   }
-  .tab {
-    .nav{
-      padding: 0 100px;
+  .tab {  
+    .nav {
+      padding: 0 20%;
+      nav .active {
+        font-weight: bold;
+        border-bottom: 2px solid #ffc107;
+      }
     }
-    .nav .active {
-      font-weight: bold;
-      border-bottom: 2px solid #ffc107;
-    }
+    
     .main {
-      padding: 0 100px;
-      .title {
-        letter-spacing: 1.92px;
+      padding: 0 10%;
+      #intro {
+        .title {
+          letter-spacing: 1.92px;
+        }
+        .text {
+          line-height: 32px;
+          color:$body-color;
+          text-align: justify;
+        }
       }
-      .text {
-        line-height: 32px;
-        color:$body-color;
-        text-align: justify;
+      #current {
+        .row {
+          @media screen and (max-width:992px) {
+            p {
+              display:none;
+            }
+            a {
+              margin-top: 10px;
+            }
+          }
+        }
       }
-      .form-select {
-        background: #F7F7F7;
-      }
-      .form-control {
-        background: #F7F7F7;
-      }
-      .contact {
-        font-size: 12px;
-      }
-      h5 .baloo {
-        font-family: 'Baloo Tamma 2';
-      }
-      ul li {
-        p .card {
-          padding-left: 50px;
+      .form {
+        .form-select {
+          background: #F7F7F7;
+        }
+        .form-control {
+          background: #F7F7F7;
         }
       }
       .sidebar {
@@ -60,12 +65,17 @@ body {
         top: 70px;
         left:0;
         bottom: 200px;
+        .contact {
+          font-size: 12px;
+        }
+        h5 .baloo {
+          font-family: 'Baloo Tamma 2';
+        }
       }
     }
+    footer {
+      background: #494846;
+      height: 88px;
+    }
   }
-  footer {
-    background: #494846;
-    height: 88px;
-  }
-  
 }
